@@ -18,6 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/profiles/{user}', function (User $user){
-    return $user;
-});
+Route::apiResource('/profiles', 'UserController'); // return json file

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\UserResource;
 use App\User;
 use Illuminate\Http\Request;
 
@@ -38,4 +39,6 @@ class ProfilesController extends Controller
         ));
         return redirect("/profile/{$user->id}");
     }
+
+
 }
