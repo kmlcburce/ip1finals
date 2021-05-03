@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+        <p>Here</p>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,7 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    IP 1 Final Project
+                    A Laravel Test Project
                 </div>
                 <div class="pt-2">Image Uploading Prototype</div>{{-- <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
